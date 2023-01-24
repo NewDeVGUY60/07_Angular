@@ -1,7 +1,7 @@
 <h2>Who's this guy?</h2>
-<b>Surname :</b><p>{{developer.lastName}}</p>
-<b>Name :</b><p>{{developer.firstName}}</p>
-<b>Age :</b><p>{{developer.age}}</p>
-<b>Gender :</b><p>{{developer.gender}}</p>
-<b>Skills :</b>
+<p>Last Name :{{developer.lastName}}</p>
+<p>Name :{{developer.firstName}}</p>
+<p>Age :{{developer.age}}</p>
+<p>Gender :{{developer.gender}}</p>
+<p>Skills :</p>
 <app-skill *ngFor="let skill of developer.skills" [skills]="skill" ></app-skill>
