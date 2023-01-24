@@ -1,12 +1,14 @@
 import { Skill } from "./skill.model";
 
 
-export interface Developer {
-    
-    lastName: string 
-    firstName: string
-    age: number 
-    gender: string
-    bio: string
-    skills:Skill[] 
+export class Developer {
+    constructor(
+        public  lastName: string ,
+        public  firstName: string,
+        public  age: number ,
+        public  gender: string,
+        public  bio: string,
+        public  skills:Skill[] 
+
+    ){}
 }

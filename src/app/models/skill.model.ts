@@ -1,7 +1,12 @@
 
 
-export interface Skill {
-name:string
-logo :string
-site:string
+export class Skill {
+    constructor(
+      public  name:string,
+      public  logo :string,
+      public  site:string
+
+    ){
+
+    }
 }
